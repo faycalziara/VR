@@ -1,0 +1,24 @@
+[dir=rtl] #skitt-ui {
+    left: 0 !important;
+}
+[dir=rtl] .menu_controls .dropdown {
+    width: fit-content;
+    left: 6px;
+}
+[dir=rtl] .list_alt_menu .dropdown {
+    width: fit-content;
+    left: 30px;
+}
+[dir=rtl] .menu_controls .title i, [dir=rtl] .list_alt_menu .title i {
+    margin-left: 0px !important;
+    margin-right: 6px !important;
+}
+[dir=rtl] .controls_arrows {
+    direction: ltr !important;
+}
+[dir=rtl] .dropdown-menu .dropdown-item span:nth-child(2) {
+    margin-right: 15px;
+}
+[dir=rtl] .pnlm-ui {
+    direction: ltr !important;
+}

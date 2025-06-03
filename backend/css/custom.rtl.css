@@ -1,0 +1,128 @@
+[dir=rtl] .navbar-nav .nav-item+.nav-item {
+    margin-left: 0px;
+}
+[dir=rtl] .btn_show_hide_passw {
+    left: 15px;
+    right: unset;
+}
+[dir=rtl] .lang_switcher_login {
+    left: unset !important;
+    right: 0;
+}
+[dir=rtl] .lang_switcher_login .dropdown-menu {
+    left: unset !important;
+}
+[dir=rtl] .fix_left_pos_lang_switcher {
+    right: 10px;
+}
+@media (max-width: 991px) {
+    [dir=rtl] .lang_switcher_login {
+        right: 10px;
+    }
+}
+[dir=rtl] #list_visitors a {
+    float: left;
+}
+[dir=rtl] #list_visitors span {
+    float: unset !important;
+}
+[dir=rtl] #chart_marker_views h4 {
+    text-align: left;
+}
+[dir=rtl] select.form-control {
+    background-position: calc(0% + 10px) calc(1em + 0px),
+    calc(0% + 15px) calc(1em + 0px);
+}
+[dir=rtl] .ql-editor {
+    direction: rtl;
+    text-align: right;
+}
+[dir=rtl] .font-picker.fp-select {
+    padding: 3px 8px 3px 26px !important;
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23303030' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat left .75rem center/8px 10px;
+}
+[dir=rtl] .font-picker .fp-lang {
+    background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3e%3cpath fill='%23303030' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat left .75rem center/8px 10px;
+}
+[dir=rtl] .font-picker .fp-search-wrap .fp-clear {
+    left: 4px;
+    right: unset;
+}
+[dir=rtl] .font-picker .fp-btns {
+    left: 12px;
+    right: unset;
+}
+[dir=rtl] .font-picker .fp-header .fp-icons {
+    float: left;
+}
+[dir=rtl] .navbar-nav .nav-item {
+    width: 100%;
+}
+[dir=rtl] .sidebar.toggled .nav-item .collapse {
+    width: fit-content !important;
+}
+@media (max-width: 767px) {
+    [dir=rtl] .sidebar .nav-item .collapse {
+        left: unset;
+        right: calc(5rem + 1.5rem / 2);
+    }
+}
+[dir=rtl] #custom1_menu_item::after, [dir=rtl] #custom2_menu_item::after, [dir=rtl] #custom3_menu_item::after, [dir=rtl] #custom4_menu_item::after, [dir=rtl] #custom5_menu_item::after {
+    float: left;
+}
+[dir=rtl] .sidebar #sidebarToggle {
+    transform: rotate(180deg);
+}
+[dir=rtl] .float-left {
+    float: right !important;
+}
+[dir=rtl] .float-right {
+    float: left !important;
+}
+[dir=rtl] #rooms_slider_m .room_image {
+    border-radius: 0 6px 6px 0 !important;
+    border-left: none;
+}
+[dir=rtl] #rooms_slider_m .room_quick_btn {
+    border-radius: 6px 0 0 6px;
+    border-right: none;
+    margin-right: -4px;
+}
+[dir=rtl] #rooms_slider_m .selected_room .room_image {
+    border-left: none !important;
+}
+[dir=rtl] #slider_hs_list .list-group {
+    padding: 0 !important;
+}
+[dir=rtl] .bootstrap-select .dropdown-toggle .filter-option-inner-inner {
+    text-align: right;
+}
+[dir=rtl] #list_editor_ui_items {
+    left: unset;
+    right: -250px;
+}
+[dir=rtl] .ui_container_open {
+    margin-left: 0 !important;
+    margin-right: 250px !important;
+}
+[dir=rtl] #skitt-ui {
+    left: 0 !important;
+}
+[dir=rtl] #ui_container .menu_controls .dropdown {
+    width: fit-content;
+    left: 30px;
+}
+[dir=rtl] #ui_container .list_alt_menu .dropdown {
+    width: fit-content;
+    left: 30px;
+}
+[dir=rtl] .menu_controls .title i, [dir=rtl] .list_alt_menu .title i {
+    margin-left: 0px !important;
+    margin-right: 6px !important;
+}
+[dir=rtl] #controls_arrow_center, [dir=rtl] #controls_arrow_left, [dir=rtl] #controls_arrow_right {
+    direction: ltr !important;
+}
+[dir=rtl] .dropdown-menu .dropdown-item span:nth-child(2) {
+    margin-right: 15px;
+}
